@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title><?= $site:: NAME;?></title>
+	<title>Ultimate Shoe World</title>
 	<!--
 		CSS
 		============================================= -->
@@ -79,6 +79,7 @@
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false"><?= ucwords($site->user->firstname)." ", ucwords($site->user->lastname) ?></a>
 								<ul class="dropdown-menu">
+									<!-- <li class="nav-item"><a class="nav-link" href="dashboard.php">Dashboard</a></li> -->
 									<li class="nav-item"><a class="nav-link" href="dashboard.php">Dashboard</a></li>
 									<li class="nav-item"><a class="nav-link" href="logout.php">Log Out</a></li>
 								</ul>

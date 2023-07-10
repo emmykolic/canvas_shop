@@ -1,7 +1,7 @@
 <?php 
 include("db/config.php");
 $site->auth();
-include("header.php");
+include("includes/header.php");
 
 ?>
 		<!-- start banner Area -->
@@ -619,4 +619,4 @@ include("header.php");
 		</div>
 	</section>
 	<!-- end product Area -->
-	<?php include("footer.php"); ?>
+	<?php include("includes/footer.php"); ?>

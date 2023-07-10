@@ -1,6 +1,6 @@
 <?php 
 include("db/config.php");
-include("header.php");
+include("includes/header.php");
 ?>
 
 	<!-- start banner Area -->
@@ -43,7 +43,7 @@ include("header.php");
 							</div>
 							<div class="col-lg-7">
 								<div class="banner-img">
-									<img class="asset/img-fluid" src="asset/img/product/p6,2.jpg" alt="">
+									<img class="asset/img-fluid" src="asset/img/product/p9.jpg" alt="">
 								</div>
 							</div>
 						</div>
@@ -406,4 +406,4 @@ include("header.php");
 	</section>
 	<!-- End related-product Area -->
 
-<?php include("footer.php"); ?>
+<?php include("includes/footer.php"); ?>

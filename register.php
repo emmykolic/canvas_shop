@@ -1,7 +1,7 @@
 <?php 
 include("db/config.php");
 $site->set_token();
-include("header.php");
+include("includes/header.php");
 ?>
 
 	<!-- Start Banner Area -->
@@ -81,4 +81,4 @@ include("header.php");
 		</div>
 	</section>
 	<!--================End Login Box Area =================-->
-	<?php include("footer.php") ?>
+	<?php include("includes/footer.php") ?>
