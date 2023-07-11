@@ -80,8 +80,8 @@
 								 aria-expanded="false"><?= ucwords($site->user->firstname)." ", ucwords($site->user->lastname) ?></a>
 								<ul class="dropdown-menu">
 									<!-- <li class="nav-item"><a class="nav-link" href="dashboard.php">Dashboard</a></li> -->
-									<li class="nav-item"><a class="nav-link" href="dashboard.php">Dashboard</a></li>
-									<li class="nav-item"><a class="nav-link" href="logout.php">Log Out</a></li>
+									<li class="nav-item"><a class="nav-link" href="home.php"><i class="fa fa-home"></i> Home</a></li>
+									<li class="nav-item"><a class="nav-link" href="logout.php"><i class=""></i> Log Out</a></li>
 								</ul>
 							</li>
 							<?php else: ?>

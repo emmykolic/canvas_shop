@@ -23,7 +23,7 @@ if ($look->num_rows < 1) {
 }
 if ($site->error == 0) {
 	$_SESSION['auth'] = $token;
-	header("location: dashboard.php");
+	header("location: home.php");
 }else{
 	$site->set_alert($site->error_msg, "danger");
 	header("location: login.php");

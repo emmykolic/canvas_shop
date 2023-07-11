@@ -1,5 +1,6 @@
 <?php 
 include("db/config.php");
+$site->auth();
 include("includes/header.php");
 ?>
 
@@ -43,7 +44,7 @@ include("includes/header.php");
 							</div>
 							<div class="col-lg-7">
 								<div class="banner-img">
-									<img class="asset/img-fluid" src="asset/img/product/p9.jpg" alt="">
+									<img class="asset/img-fluid" src="asset/img/banner/banner-img.png" alt="">
 								</div>
 							</div>
 						</div>
